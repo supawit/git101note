@@ -12,3 +12,4 @@ command = sudo macport install git
 - for linux user 
 
 command = sudo apt-get install git 
+- for Windows user can install from .exe file
