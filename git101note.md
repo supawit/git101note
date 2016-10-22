@@ -17,7 +17,16 @@ like undo revert to previos commit then create new commit
 git-add - Add file contents to the index
 
 Command 
+<<<<<<< HEAD
+<<<<<<< HEAD
+* git add <filename.type> 
+* git add . (all file)
+>>>>>>> 87ce328109655de52cec7ecc2aaa5629e05971fe
+=======
+- git add <filename.type> 
+=======
 - git add filename.type
+>>>>>>> 2c287cd5d7a36ae05a8de540bdf9f02ca04f0114
 - git add . (all file)
 
 # COMMIT
@@ -26,5 +35,8 @@ git-commit - Record changes to the repository
 # Command
 - git commit -m 'comment'
 - git commit -am 'comment' (short code : add & commit)
+<<<<<<< HEAD
 #rebase
 rebase ---
+
+
