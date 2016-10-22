@@ -16,3 +16,5 @@ like undo revert to previos commit then create new commit
 Command 
 * git add <filename.type> 
 * git add . (all file)
+#rebase
+* rebase is pull data from master to branch before marge with master
