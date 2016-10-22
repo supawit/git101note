@@ -3,7 +3,35 @@
 
 # Github Account
   Go to https://github.com/ and SignUp.
-  1.Create public 
+
+  1.Create Github public key 
+
+	  commmand : $ssh-keygen -C Author 
+
+	  Keycode will be generate in id_rsa.pub on .ssh folder 
+
+	  e.g. C:\Users\Mc\.ssh\id_rsa.pub 
+
+
+  2. Sync to Github
+
+  	 Go to Github site on menu Setting->SSH and GPG keys
+
+  	 Click New SSH Key and paste CODE from id_ras.pub
+
+  	 And Sync to Git by command : $ssh -T git@github.com 
+
+  3. PUSH
+
+  	 Create a new repository.
+
+  	 Set add remote origin URL that created by command : git remote add origin git@github.com:userxx/hello.git
+
+  	 Push by command : git push / or git push origin master
+
+  4. PULL
+
+   	 by command : git pull URL
 
 # git command
 ## revert
@@ -17,16 +45,7 @@ like undo revert to previos commit then create new commit
 git-add - Add file contents to the index
 
 Command 
-<<<<<<< HEAD
-<<<<<<< HEAD
-* git add <filename.type> 
-* git add . (all file)
->>>>>>> 87ce328109655de52cec7ecc2aaa5629e05971fe
-=======
 - git add <filename.type> 
-=======
-- git add filename.type
->>>>>>> 2c287cd5d7a36ae05a8de540bdf9f02ca04f0114
 - git add . (all file)
 
 # COMMIT
@@ -36,7 +55,7 @@ git-commit - Record changes to the repository
 - git commit -m 'comment'
 - git commit -am 'comment' (short code : add & commit)
 <<<<<<< HEAD
+<<<<<<< HEAD
 #rebase
 rebase ---
-
 
