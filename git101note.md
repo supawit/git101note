@@ -1,3 +1,6 @@
+# Introduce Git
+  Git is version control
+
 # Github Account
   Go to https://github.com/ and SignUp.
   1.Create public 
@@ -20,6 +23,6 @@ Command
 # COMMIT
 git-commit - Record changes to the repository
 
-Command
+# Command
 - git commit -m 'comment'
 - git commit -am 'comment' (short code : add & commit)
